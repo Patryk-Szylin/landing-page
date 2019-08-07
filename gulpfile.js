@@ -80,11 +80,14 @@ function modules() {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src([
+      "./scss/**/*.scss",
+      "./external/**/*.scss"
+    ])
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",
-      includePaths: "./node_modules",
+      includePaths: "./external",
     }))
     .on("error", sass.logError)
     .pipe(autoprefixer({
@@ -123,7 +126,7 @@ function js() {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
+  gulp.watch(["./scss/**/*", "./external/mdb/**/*"], css);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
