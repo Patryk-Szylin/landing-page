@@ -2,3 +2,16 @@
 .navbar {
     box-shadow: none;
 }
+
+.btn-primary {
+    color: $default-color;
+}
+
+.nav-tabs {
+     .nav-link {
+         &.active {
+             color: $primary-color;
+             background-color: #1F2833;             
+         }
+     }
+}
