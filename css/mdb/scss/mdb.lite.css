@@ -1526,7 +1526,7 @@
 }
 
 .primary-color, ul.stepper li.active a .circle, ul.stepper li.completed a .circle {
-  background-color: green !important;
+  background-color: #66FCF1 !important;
 }
 
 .primary-color-dark {
@@ -1836,17 +1836,17 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 }
 
 .bg-primary {
-  background-color: green !important;
+  background-color: #66FCF1 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #004d00 !important;
+  background-color: #34fbec !important;
 }
 
 .border-primary {
-  border-color: green !important;
+  border-color: #66FCF1 !important;
 }
 
 .bg-danger {
@@ -2047,11 +2047,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bq-primary {
-  border-left: 3px solid green !important;
+  border-left: 3px solid #66FCF1 !important;
 }
 
 .bq-primary .bq-title {
-  color: green !important;
+  color: #66FCF1 !important;
 }
 
 .bq-danger {
@@ -2179,11 +2179,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-primary {
-  color: green !important;
+  color: #66FCF1 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #004d00 !important;
+  color: #34fbec !important;
 }
 
 .text-danger {
@@ -3032,12 +3032,12 @@ a.waves-effect, a.waves-light {
 }
 
 .btn-primary {
-  background-color: green !important;
+  background-color: #66FCF1 !important;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #009a00;
+  background-color: #7ffcf3;
   color: #fff;
 }
 
@@ -3047,22 +3047,22 @@ a.waves-effect, a.waves-light {
 }
 
 .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #001a00;
+  background-color: #05f7e5;
 }
 
 .btn-primary.dropdown-toggle {
-  background-color: green !important;
+  background-color: #66FCF1 !important;
 }
 
 .btn-primary.dropdown-toggle:hover, .btn-primary.dropdown-toggle:focus {
-  background-color: #009a00 !important;
+  background-color: #7ffcf3 !important;
 }
 
 .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  background-color: #001a00 !important;
+  background-color: #05f7e5 !important;
 }
 
 .btn-primary:not([disabled]):not(.disabled):active:focus, .btn-primary:not([disabled]):not(.disabled).active:focus,
@@ -3072,11 +3072,11 @@ a.waves-effect, a.waves-light {
 }
 
 .primary-ic {
-  color: green !important;
+  color: #66FCF1 !important;
 }
 
 .primary-ic:hover, .primary-ic:focus {
-  color: green;
+  color: #66FCF1;
 }
 
 a.btn:not([href]):not([tabindex]),
@@ -3090,15 +3090,15 @@ table.table a.btn.btn-primary {
 }
 
 .btn-outline-primary {
-  border: 2px solid green !important;
+  border: 2px solid #66FCF1 !important;
   background-color: transparent !important;
-  color: green !important;
+  color: #66FCF1 !important;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary:active:focus, .btn-outline-primary.active {
-  border-color: green !important;
+  border-color: #66FCF1 !important;
   background-color: transparent !important;
-  color: green !important;
+  color: #66FCF1 !important;
 }
 
 .btn-outline-primary:not([disabled]):not(.disabled):active, .btn-outline-primary:not([disabled]):not(.disabled).active,
@@ -3106,7 +3106,7 @@ table.table a.btn.btn-primary {
   -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent !important;
-  border-color: green !important;
+  border-color: #66FCF1 !important;
 }
 
 .btn-outline-primary:not([disabled]):not(.disabled):active:focus, .btn-outline-primary:not([disabled]):not(.disabled).active:focus,
@@ -6141,7 +6141,7 @@ table.table a.btn.btn-black {
 }
 
 .navbar.navbar-light form .md-form input:focus:not([readonly]) {
-  border-color: green;
+  border-color: #66FCF1;
 }
 
 .navbar.navbar-light form .md-form .form-control {
@@ -6217,7 +6217,7 @@ table.table a.btn.btn-black {
 }
 
 .navbar.navbar-dark form .md-form input:focus:not([readonly]) {
-  border-color: green;
+  border-color: #66FCF1;
 }
 
 .navbar.navbar-dark form .md-form .form-control {
@@ -6280,12 +6280,12 @@ table.table a.btn.btn-black {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   border-radius: 0.125rem;
-  background-color: green;
+  background-color: #66FCF1;
   color: #fff;
 }
 
 .pagination .page-item.active .page-link:hover {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .pagination .page-item.disabled .page-link {
@@ -6338,11 +6338,11 @@ table.table a.btn.btn-black {
 }
 
 .pagination.pg-blue .page-item.active .page-link {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .pagination.pg-blue .page-item.active .page-link:hover {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .pagination.pg-red .page-item.active .page-link {
@@ -6415,7 +6415,7 @@ table.table a.btn.btn-black {
 }
 
 .badge-primary {
-  background-color: green !important;
+  background-color: #66FCF1 !important;
   color: #fff !important;
 }
 
@@ -6600,15 +6600,15 @@ body.scrollable {
 }
 
 .modal-dialog.modal-notify.modal-primary .modal-header {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .modal-dialog.modal-notify.modal-primary .fas, .modal-dialog.modal-notify.modal-primary .fab, .modal-dialog.modal-notify.modal-primary .far {
-  color: green;
+  color: #66FCF1;
 }
 
 .modal-dialog.modal-notify.modal-primary .badge {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .modal-dialog.modal-notify.modal-primary .btn .fas, .modal-dialog.modal-notify.modal-primary .btn .fab, .modal-dialog.modal-notify.modal-primary .btn .far {
@@ -6616,7 +6616,7 @@ body.scrollable {
 }
 
 .modal-dialog.modal-notify.modal-primary .btn.btn-outline-primary .fas, .modal-dialog.modal-notify.modal-primary .btn.btn-outline-primary .fab, .modal-dialog.modal-notify.modal-primary .btn.btn-outline-primary .far {
-  color: green;
+  color: #66FCF1;
 }
 
 .modal-dialog.modal-notify.modal-danger .modal-header {
@@ -6949,9 +6949,9 @@ body.scrollable {
 .md-form input[type=search-md]:focus:not([readonly]),
 .md-form input[type=search]:focus:not([readonly]),
 .md-form textarea.md-textarea:focus:not([readonly]) {
-  -webkit-box-shadow: 0 1px 0 0 green;
-  box-shadow: 0 1px 0 0 green;
-  border-bottom: 1px solid green;
+  -webkit-box-shadow: 0 1px 0 0 #66FCF1;
+  box-shadow: 0 1px 0 0 #66FCF1;
+  border-bottom: 1px solid #66FCF1;
 }
 
 .md-form input[type=text]:focus:not([readonly]) + label,
@@ -6966,7 +6966,7 @@ body.scrollable {
 .md-form input[type=search-md]:focus:not([readonly]) + label,
 .md-form input[type=search]:focus:not([readonly]) + label,
 .md-form textarea.md-textarea:focus:not([readonly]) + label {
-  color: green;
+  color: #66FCF1;
 }
 
 .md-form input[type=text] + label:after,
@@ -7410,7 +7410,7 @@ body.scrollable {
 }
 
 .md-form .prefix.active {
-  color: green;
+  color: #66FCF1;
 }
 
 .md-form.form-lg .validate {
@@ -7941,8 +7941,8 @@ body.scrollable {
   border-top-left-radius: .3rem;
   border-top-right-radius: .3rem;
   background: #f5f5f5 no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(green), to(green)), -webkit-gradient(linear, left top, left bottom, from(#ced4da), to(#ced4da));
-  background-image: linear-gradient(to bottom, green, green), linear-gradient(to bottom, #ced4da, #ced4da);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#66FCF1), to(#66FCF1)), -webkit-gradient(linear, left top, left bottom, from(#ced4da), to(#ced4da));
+  background-image: linear-gradient(to bottom, #66FCF1, #66FCF1), linear-gradient(to bottom, #ced4da, #ced4da);
   background-size: 0 2px, 100% 1px;
   background-position: 50% 100%, 50% 100%;
   -webkit-transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -8831,4 +8831,9 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
   color: #ffac47;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.navbar {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
