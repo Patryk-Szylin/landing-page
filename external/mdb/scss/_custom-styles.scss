@@ -7,6 +7,17 @@
     color: $default-color;
 }
 
+#mainNav {
+    .nav-link{
+        &:hover {
+            @media (min-width: 992px){
+                color: $primary-color;
+            }
+            
+        }
+    }
+}
+
 .nav-tabs {
      .nav-link {
          border: none;

@@ -44,10 +44,10 @@
       padding: 2rem 1.5rem;
       color: fade-out($white, .5);
       &:hover {
-        color: fade-out($white, .25);
+        color: fade-out($primary-color, .25);
       }
       &:active {
-        color: white;
+        color: $primary-color;
       }
     }
     &.navbar-shrink {

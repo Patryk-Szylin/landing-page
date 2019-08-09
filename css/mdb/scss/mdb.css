@@ -10889,8 +10889,8 @@ body.scrollable {
   background: #f5f5f5 no-repeat;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#66FCF1), to(#66FCF1)), -webkit-gradient(linear, left top, left bottom, from(#ced4da), to(#ced4da));
   background-image: linear-gradient(to bottom, #66FCF1, #66FCF1), linear-gradient(to bottom, #ced4da, #ced4da);
-  background-size: 0 2px, 100% 1px;
-  background-position: 50% 100%, 50% 100%;
+  background-size: 0 2px, 100% 1px;
+  background-position: 50% 100%, 50% 100%;
   -webkit-transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
@@ -11786,6 +11786,12 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
 
 .btn-primary {
   color: #C5C6C7;
+}
+
+@media (min-width: 992px) {
+  #mainNav .nav-link:hover {
+    color: #66FCF1;
+  }
 }
 
 .nav-tabs .nav-link {
