@@ -9,9 +9,12 @@
 
 .nav-tabs {
      .nav-link {
+         border: none;
+         color: $secondary-color;
+         background-color: $default-color;
          &.active {
              color: $primary-color;
-             background-color: #1F2833;             
+             background-color:$secondary-color;             
          }
      }
 }
