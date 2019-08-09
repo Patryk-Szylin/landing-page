@@ -38,6 +38,21 @@
     }
 }
 
+ul {
+    &.stepper {
+        li {
+            a {
+                .circle {
+                    transition: 0.25s color ease;
+                    &:hover {
+                        color:$primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // TIMELINE 
 .timeline-main {
     .stepper{
@@ -46,7 +61,7 @@
                 li {
                     a {
                         padding: 0px 24px;
-                        left: 50%;
+                        left: 50%;       
 
                         .circle {
                             width: 50px;

@@ -8868,6 +8868,15 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
   margin-left: 1px;
 }
 
+ul.stepper li a .circle {
+  -webkit-transition: 0.25s color ease;
+  transition: 0.25s color ease;
+}
+
+ul.stepper li a .circle:hover {
+  color: #66FCF1;
+}
+
 .timeline-main .stepper.stepper-vertical.timeline li a {
   padding: 0px 24px;
   left: 50%;
