@@ -12,6 +12,8 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+const concat = require("gulp-concat");
+const babel = require('gulp-babel');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -44,7 +46,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./vendor/"]);
+  return del(["./vendor/", "./dist/"]);
 }
 
 // Bring third party dependencies from node_modules into vendor directory
@@ -113,6 +115,9 @@ function js() {
       './js/*.js',
       '!./js/*.min.js'
     ])
+    .pipe(babel({
+      presets: ["env"]
+    }))
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
@@ -120,7 +125,8 @@ function js() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./js'))
+    .pipe(concat("main.bundle.js"))
+    .pipe(gulp.dest('./dist/js'))
     .pipe(browsersync.stream());
 }
 

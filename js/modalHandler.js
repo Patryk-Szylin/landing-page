@@ -1,6 +1,6 @@
 
 (function () {
-    $("#signup").on("click", function () {
+    $("#signup").on("click", () => {
         console.log("jdasidj");
     });
 })();
