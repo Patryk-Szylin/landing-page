@@ -18,6 +18,126 @@
     }
 }
 
+.timeline-box {
+    position: relative;
+    border-radius: 5px;
+
+    &:after {
+        position: absolute;
+        content: ' ';
+        width: 10px;
+        height: 10px;
+        right: -10px;
+        display: inline-block;
+        top: 25px;
+        border-top: 15px transparent solid;
+        border-left: 15px #e0e0e0 solid;
+        border-right: 0px #e0e0e0 solid;
+        border-bottom: 15px solid transparent;
+        margin-left: 1px;
+    }
+}
+
+// TIMELINE 
+.timeline-main {
+    .stepper{
+        &.stepper-vertical {
+            &.timeline {
+                li {
+                    a {
+                        padding: 0px 24px;
+                        left: 50%;
+
+                        .circle {
+                            width: 50px;
+                            height: 50px;
+                            line-height: 50px;
+                            font-size: 1.4em;
+                            text-align: center;
+                            position: absolute;
+                            top: 16px;
+                            margin-left: -50px;
+                            background-color: #ccc;
+                            z-index: 2;
+                        }
+                    }
+
+                    .step-content {
+                        width: 45%;
+                        float: left;
+                        -webkit-border-radius: 2px;
+                        border-radius: 2px;
+                        position: relative;
+
+                        &:before {
+                            position: absolute;
+                            top: 26px;
+                            right: -15px;
+                            display: inline-block;
+                            border-top: 15px solid transparent;
+                            border-left: 15px solid #e0e0e0;
+                            border-right: 0 solid #e0e0e0;
+                            border-bottom: 15px solid transparent;
+                            content: " ";
+                        }
+
+                        &:after {
+                            position: absolute;
+                            top: 27px;
+                            right: -14px;
+                            display: inline-block;
+                            border-top: 14px solid transparent;
+                            border-left: 14px solid #fff;
+                            border-right: 0 solid #fff;
+                            border-bottom: 14px solid transparent;
+                            content: " ";
+                        }
+                    }
+
+                    &.timeline-inverted {
+                        -webkit-box-align: end;
+                        -webkit-align-items: flex-end;
+                        -ms-flex-align: end;
+                        align-items: flex-end;
+
+                        .step-content{
+                            &:before {
+                                border-left-width: 0;
+                                border-right-width: 15px;
+                                left: -15px;
+                                right: auto;
+                            }
+
+                            &:after {
+                                border-left-width: 0;
+                                border-right-width: 14px;
+                                left: -14px;
+                                right: auto;
+                            }
+                        }
+                    }
+
+                    &:not(:last-child){
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            width: 3px;
+                            background-color: #e0e0e0;
+                            left: 50%;
+                            top: 65px;
+                            margin-left: -1.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+///////////
+
 .nav-tabs {
      .nav-link {
          border: none;
